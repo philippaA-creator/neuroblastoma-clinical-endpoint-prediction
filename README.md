@@ -1,15 +1,20 @@
 # neuroblastoma-clinical-endpoint-prediction
 Machine learning models for clinical endpoint prediction in neuroblastoma using RNA-seq gene expression data from 498 primary tumour samples.
-Background
+
+# Background
 Neuroblastoma is a paediatric cancer with highly variable outcomes. This project evaluates the capability of RNA-seq-based gene expression profiles to predict clinical endpoints including high-risk classification, disease progression, and survival, using data from 498 primary tumour samples.
 Data source: Kocak et al. — RNA-Seq reveals an unprecedented complexity of the neuroblastoma transcriptome and is suitable for clinical endpoint prediction.
 Methods
 
-Data: log2 FPKM gene expression matrix (RNA-seq), 498 neuroblastoma samples split into training and validation sets
+# Data: 
+log2 FPKM gene expression matrix (RNA-seq), 498 neuroblastoma samples split into training and validation sets
 Target variable: High-risk classification (primary focus), with additional endpoints including progression and death from disease
-Models evaluated: Neural network, SVM, Random Forest, k-NN
-Validation: Stratified k-fold cross-validation, GridSearchCV for hyperparameter tuning
-Neural network architecture: Two hidden layers, ReLU activation, Adam optimiser, L2 regularisation, early stopping
+# Models evaluated: 
+Neural network, SVM, Random Forest, k-NN
+# Validation: 
+Stratified k-fold cross-validation, GridSearchCV for hyperparameter tuning
+# Neural network architecture: 
+Two hidden layers, ReLU activation, Adam optimiser, L2 regularisation, early stopping
 
 Key Results
 
